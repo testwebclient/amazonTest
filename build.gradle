@@ -1,0 +1,26 @@
+
+apply plugin: 'java'
+apply plugin: 'eclipse'
+apply plugin: 'maven'
+
+
+repositories {
+  
+    jcenter()
+}
+
+test {
+     useTestNG() 
+     
+ }
+
+dependencies {
+   compile 'org.testng:testng:6.13.1'
+   compile 'org.seleniumhq.selenium:selenium-java:3.8.1'
+   compile 'org.seleniumhq.selenium:selenium-remote-driver:3.8.1'
+   compile 'org.apache.poi:poi:3.16'
+   compile 'org.apache.poi:poi-ooxml:3.16'
+   compile 'org.apache.poi:poi-ooxml-schemas:3.16'
+   compile 'org.apache.xmlbeans:xmlbeans:2.6.0'
+   compile 'io.appium:java-client:4.1.2'
+}
