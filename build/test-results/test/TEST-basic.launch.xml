@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="basic.launch" tests="1" skipped="0" failures="0" errors="0" timestamp="2017-12-09T02:21:07" hostname="Anand-BS" time="11.029">
+  <properties/>
+  <testcase name="launchAmazon" classname="basic.launch" time="11.029"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[1512786057936	geckodriver	INFO	geckodriver 0.19.1 (0000000000000000000000000000000000000000 2017-10-31)
+1512786057942	geckodriver	INFO	Listening on 127.0.0.1:42842
+1512786058497	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\ANANDB~1\\AppData\\Local\\Temp\\rust_mozprofile.g5kJlPXf8J82"
+1512786061229	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Anand B S\AppData\Local\openvr\openvrpaths.vrpath
+[Child 7756, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7756, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1512786066170	Marionette	INFO	Listening on port 52844
+1512786066485	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512786066543	Marionette	DEBUG	Register listener.js for window 4294967297
+Dec 09, 2017 7:51:06 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1512786067076	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512786068023	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512786068024	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512786068989	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "https://www.amazon.in/"
+1512786078031	Marionette	DEBUG	Received DOM event "pageshow" for "https://www.amazon.in/"
+]]></system-err>
+</testsuite>

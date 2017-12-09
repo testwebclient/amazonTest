@@ -8,14 +8,8 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class launch {
-	static WebDriver driver;
-	@BeforeMethod
-	public static void launch() {
-	 System.setProperty("webdriver.gecko.driver", "I:\\Workspaces\\drivers\\geckodriver.exe");
-	 driver = new FirefoxDriver();
-		
-	}
+public class launch extends base {
+	
 	@Test
 	public static void launchAmazon() {
 		driver.get("https://www.amazon.in/");
@@ -24,10 +18,5 @@ public class launch {
 
 	}
 	
-	@AfterMethod
-	public static void close() {
-		
-		 driver.close();
-		
-	}
+	
 }
